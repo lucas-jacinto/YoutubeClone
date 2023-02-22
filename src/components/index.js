@@ -1,0 +1,12 @@
+export { default as NavBar } from './NavBar'
+export { default as Feed } from './Feed'
+export { default as VideoDetalhes } from './VideoDetalhes'
+export { default as CanalDetalhes } from './CanalDetalhes'
+export { default as PesquisarMenu } from './PesquisarMenu'
+export { default as BarraPesquisa } from './BarraPesquisa'
+export { default as BarraLateral } from './BarraLateral'
+export {default as Videos} from './Videos'
+export {default as VideoCard} from './VideoCard'
+export {default as CanalCard} from './CanalCard'
+export {default as Loader} from './Loader'
+
