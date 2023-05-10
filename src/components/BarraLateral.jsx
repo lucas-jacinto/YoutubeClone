@@ -8,7 +8,7 @@ const BarraLateral = ({categoriaSelecionada, setCategoriaSelecionada}) => {
   return (
     <Stack direction='row' sx={{overflowY:'auto', height:{sx:'auto', md:'95%'}, flexDirection:{md:'column'}}}>
       {categorias.map((categoria)=>(
-          <button 
+          <button
           className='category-btn'
           onClick={() => setCategoriaSelecionada(categoria.name)}
           style={{
